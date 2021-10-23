@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form-Barang</title>
+</head>
+
+<body style="background: url(la.png); background-size: contain ; background-attachment: fixed;">
+    <div style="border: 1px solid; align-items: center; background-color: rgb(45, 251, 38);">
+        <table style="width: 80%">
+        <h1 align="center" >Kenzoham store<h1>
+        <tr>
+           <td style="font-size: x-large;">
+            <b> 
+                <a href="/">&#8592;</a>
+                <a href="/">&#8594;</a>
+                <a href="/"> &#x2715;</a>
+                <a href="/"> &#8855;</a>
+            </b>
+                </td>
+                <td align="center"><input type="text" name="https" placeholder="https://" size="100%"></td>
+                <td> &#9744;</td>
+            </tr>
+        </table>
+    </div>
+
+    <div style="border: 1px solid; width: 100%;" align="center">
+        <table>
+            <tr>
+                <td> <a href="#"> Home  </a></td>
+                <td> | </td>
+                <td>  <a href="#"> Generate Link </a> </td>
+                <td> | </td>
+                <td>  <a href="#"> Transaction History </a></td>
+                <td> | </td>
+                <td> <a href="#"> Policy</a> </td>
+                <td> | </td>
+                <td> <a href="#"> Logout </a> </td>
+            </tr>
+        </table>
+    </div>
+
+    <table><tr>
+        <td rowspan="13" width="100px">
+        <img src="asus.png" alt="" width="200px" style="display: block; border-radius:10%;">
+        </td>
+   </tr></table>
+    <div style="border: 1px solid; width: 80%; margin-left: 250px; margin-top: -140px;">
+        <table>
+            
+
+            <form style="padding-bottom: 30px; padding-top: 10px;">
+                <label for="titlehere">Title Here :</label>
+                <input  type="text" name="titlehere" value="zephyrus"><br><br>
+
+                <label for="deskripsi">Description :</label>
+                <textarea name="text" placeholder="Year : 2075 condition : good
+               model : New "
+                    cols="50" style="margin-bottom: -7px;"></textarea><br><br>
+
+                <label for="number">Account Number :</label>
+                <input  type="text" name="acc" value="08-1251-1234">
+
+                <label for="bank">Bank :</label>
+                <select id="bank" name="bank">
+                    <option value="bnk1"> Cimb Niaga</option>
+                    <option value="bnk2">Mandiri</option>
+                    <option value="bnk3">BNI</option>
+                    <option value="bnk4">BCA</option>
+                    <option value="bnk5">BRI</option>
+                    <option value="bnk6">JAGO</option>
+                    
+
+                  </select>
+                <br><br>
+
+                <label for="titlehere">Account Helder :</label>
+                <input style="margin-left: 50px;" type="text" name="helder" value="Name Here"><br><br>
+
+                <label for="transaction">Transaction</label>
+                <input style="width: 36px; margin-left: 90px;" type="number" step="1" min="1" name="qc" max="10"
+                    value="1">
+
+                <p style="margin-left: 160px; font-size: 12px;">* if the transaction is for 3 person, choose 3
+                    from the drop-down
+                    list</p>
+
+                <div style="margin-left: 150px; font-size: 12px;">
+                    <input type="checkbox" name="bank" value="back">
+                    <label style="color: rgb(45, 251, 38);">Send to mobile phone</label><br>
+                    <input type="checkbox" name="bank" value="back">
+                    <label style="color: rgb(45, 251, 38);">Send to email</label>
+                </div><br><br>
+
+                <label for="number">Send to mobile phone :</label>
+                <input style="margin-left: 14px;" type="text" name="number"
+                    value="123456, 9876543"><br><br>
+
+                <label for="number">Send to email :</label>
+                <input style="margin-left: 65px;" type="text" name="email"
+                    value="walter@yahooo.co.id"><br><br>
+
+                <input style="width: 130px; margin-left: 166px; background-color: rgb(45, 251, 38);" type="submit"
+                    value="Generate Link">
+                    <br>
+            </form>
+        </table>
+    </div>
+</body>
+
+</html>
