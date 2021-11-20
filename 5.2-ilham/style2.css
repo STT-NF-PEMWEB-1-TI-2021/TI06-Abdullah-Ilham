@@ -1,0 +1,50 @@
+
+        .hijau fieldset{
+            background-color: greenyellow;
+            width: 90%;
+            height: 75px;
+            position: absolute;
+            left: 5%;
+            right: 5%;
+            top: 2%;
+        }
+
+        .kuning1 fieldset{
+            background-color: yellow;
+            width: 20%;
+            height: 125px;
+            position: absolute;
+            left: 5%;
+            right: 5%;
+            top: 23%;
+        }
+
+        .oren fieldset{
+            background-color: orange;
+            width: 65%;
+            height: 125px;
+            position: absolute;
+            left: 30%;
+            right: 5%;
+            top: 23%;
+        }
+
+        .kuning2 fieldset{
+            background-color: yellow;
+            width: 20%;
+            height: 120px;
+            position: absolute;
+            left: 5%;
+            right: 5%;
+            top: 50%;
+        }
+
+        .biru fieldset{
+            background-color: blue;
+            width: 65%;
+            height: 120px;
+            position: absolute;
+            left: 30%;
+            right: 5%;
+            top: 50%;
+        }
