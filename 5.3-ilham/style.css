@@ -1,0 +1,61 @@
+
+        .kuning fieldset{
+            background-color: yellow;
+            border: 1px solid black;
+            width: 12%;
+            height: 50px;
+            position: absolute;
+            top: 5%;
+            left: 4%;
+        }
+
+        .oren fieldset{
+            background-color: orange;
+            border: 1px solid black;
+            width: 75%;
+            height: 50px;
+            position: absolute;
+            top: 5%;
+            left: 20%;
+            right: 5%;
+        }
+
+        .hijau fieldset{
+            background-color: yellowgreen;
+            border: 1px solid black;
+            width: 12%;
+            height: 400px;
+            position: absolute;
+            top: 20%;
+            left: 4%;
+        }
+
+        .abu fieldset{
+            background-color: gray;
+            border: 1px solid black;
+            width: 59%;
+            height: 400px;
+            position: absolute;
+            top: 20%;
+            left: 20%;
+        }
+
+        .laut fieldset{
+            background-color: aqua;
+            border: 1px solid black;
+            width: 12%;
+            height: 400px;
+            position: absolute;
+            top: 20%;
+            left: 83%;
+        }
+
+        .biru fieldset{
+            background-color: blue;
+            border: 1px solid black;
+            width: 91%;
+            height: 50px;
+            position: absolute;
+            top: 90%;
+            left: 4%;
+        }
