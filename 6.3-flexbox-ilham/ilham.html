@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <title>Flexbox 6.3</title>
+</head>
+<style>
+   
+    body {
+       background: pink;
+    }
+
+    header, footer {
+        width: 180vh;
+        height: 10vh;
+        background: powderblue;
+        margin: auto;
+    }
+
+    .container {
+        display: flex;
+        margin: 3vh 0;
+    }
+
+    aside {
+        width: 58vh;
+        height: 70vh;
+        background: aquamarine;
+        margin-left: 22vh;
+    }
+
+    article {
+        width: 116.5vh;
+        height: 70vh;
+        background: palevioletred;
+        margin: 0 5vh;
+    }
+
+    .image img {
+        width: 120px;
+        height: 120px;
+        padding: 0 55px 5px 55px;
+    }
+
+    h2 {
+        text-align: center;
+        margin-top: 230px;
+        color: #ffff;
+        font-family: sans-serif;
+    }
+    
+    h3 {
+        text-align: center;
+        margin: auto;
+        color: #ffff;
+        font-family: sans-serif;
+    }
+
+</style>
+
+<body>
+    <header>
+        <h3>Header</h3>
+    </header>
+    <div class="container">
+        <aside>
+            <h3>Aside</h3>
+        </aside>
+        <article>
+            <h2>Article</h2>
+            <div class="image">
+                <img src="box1.png">
+                <img src="main.png">
+                <img src="git.png">
+            </div>
+        </article>
+    </div>
+    <footer>
+       <h3>Footer</h3>
+    </footer>
+</body>
+
+</html>
