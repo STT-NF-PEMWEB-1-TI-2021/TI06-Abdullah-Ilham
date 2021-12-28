@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="id">
+    <head>
+        <title>Aplikasi Penghitung Kurs Rupiah</title>
+        <script>
+            function kurs(){
+                let dolar = Number(document.getElementById("dollar").value)
+                let rupiahh = dolar * 14650
+                document.getElementById("rupiah").value = rupiahh
+            }
+        </script>
+    </head>
+    <body>
+        <form id="frm1">
+            <p> Dollar : <input type="number" id="dollar" value="1" onchange="kurs()">
+                <br>
+                Rupiah : <input type="number" id="rupiah" value="14650">
+            </p>
+        </form>
+    </body>
+</html>
