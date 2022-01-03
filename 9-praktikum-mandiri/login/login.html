@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        button{
+            padding: 3px;
+            background-color: turquoise;
+            color: white;
+            border-radius: 5px;
+            width: 4%;
+        }
+        h2{
+            background-color: turquoise;
+            color: white;
+            width: 18%;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+       <script src="otentikasi.js"></script>
+       <div class="Login">
+           <h2>Form Login Validation</h2> 
+           <form id="login" onsubmit="login(event)">
+                <label>Username</label>
+                <input type="text" id="user" onchange="login()"><br><br>
+                <label>Password</label>
+                <input type="password" id="pasword" onchange="login()">
+                <br>
+            <button type="submit">Login</button>
+</body>
+</html>
